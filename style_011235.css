@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppines' ,sans-serif;
+}
+
+body{
+    background: rgb(233, 239, 243);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 2em;
+    color: rgb(12, 11, 11);
+    user-select: none;
+    margin-left: 40px;
+}
+.navigation a{
+    position: relative;
+    font-size: .8em;
+    color: gray;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+.navigation .btn-login{
+width: 80px;
+height: 30px;
+background: gold;
+outline: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: .8em;
+color: gray;
+font-weight: 500;
+margin-left: 40px;
+border: #fff;
+}
+.navigation .btn-login:hover{
+    background: #e94c0e;
+    color: black;
+}
+.main{
+    color: #504e4e;
+    margin-top: 140px;
+    margin-left: 40px;
+    font-size: xx-large;
+    font-family: 'Poppines' ,sans-serif;
+    font-weight: 800;
+}
+.lost{
+    color: gray;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: lighter;
+}
+.btn{
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 35px;
+    width: 120px;
+    background: rgb(108, 238, 75);
+    border: 0;
+    border-radius: 6px;
+}
+.btn:hover{
+    color: #504e4e;
+    background: burlywood;
+}
+.img {
+ height: 400px;
+ float: right;
+ margin: 0px;
+ display: inline;
+ position: static;
+ margin-right: 240px;
+}
